@@ -1,10 +1,12 @@
 fx_version 'cerulean'
+
 game 'rdr3'
 rdr3_warning 'I acknowledge that this is a prerelease build of RedM, and I am aware my resources *will* become incompatible once RedM ships.'
 
 author 'VORP edit by @outsider' --  SLIZZARN original author
 description 'A tool to build RedM menus for your scripts'
-repository 'https://github.com/VORPCORE/vorp_menu'
+version '1.3'
+
 lua54 'yes'
 
 client_scripts {
@@ -23,5 +25,3 @@ files {
 	'html/js/app.js',
 	'html/fonts/*ttf',
 }
-
-version '1.3'
